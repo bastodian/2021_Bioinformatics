@@ -10,9 +10,6 @@ cat *left.fq > Sp_COMBINED_left.fq
 # Assemble combined data using Trinity 
 ./trinityrnaseq-v2.13.2/Trinity --seqType fq --left Sp_COMBINED_left.fq --right Sp_COMBINED_right.fq --CPU 4 --max_memory 10G --output trinity_Assembly --trimmomatic --no_bowtie
 
-# change into Trinity assembly directory
-#cd trinity_out_dir
-
 # Build an index for the Reference assembly
 bowtie2-build trinity_Assembly.Trinity.fasta Trinity
 
