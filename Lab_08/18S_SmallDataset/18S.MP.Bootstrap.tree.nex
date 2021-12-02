@@ -1,0 +1,36 @@
+#NEXUS 
+
+Begin trees;  [Treefile saved Fri Nov 12 14:17:52 2021]
+[!
+>Data file = 18S_MaxParsimony.nxs
+>Bootstrap method with heuristic search:
+>  Number of bootstrap replicates = 1000
+>  Starting seed = generated automatically
+>  Number of characters resampled in each replicate = 1523
+>  Optimality criterion = parsimony
+>    Character-status summary:
+>      Of 1523 total characters:
+>        All characters are of type 'unord'
+>        All characters have equal weight
+>        1040 characters are constant (proportion = 0.682863)
+>        368 variable characters are parsimony-uninformative
+>        Number of parsimony-informative characters = 115
+>    Gaps are treated as "missing"
+>  Starting tree(s) obtained via stepwise addition
+>    Addition sequence: random
+>    Number of replicates = 10
+>    Starting seed = generated automatically
+>    Number of trees held at each step = 1
+>  Branch-swapping algorithm: tree-bisection-reconnection (TBR) with reconnection limit = 8
+>    Steepest descent option not in effect
+>  Initial 'Maxtrees' setting = 100 (will be auto-increased by 100)
+>  Branches collapsed (creating polytomies) if maximum branch length is zero
+>  'MulTrees' option in effect
+>  No topological constraints in effect
+>  Trees are unrooted
+>
+>  1000 bootstrap replicates completed
+>  Time used = 0.10 sec (CPU time = 0.10 sec)
+]
+tree 'PAUP_1' = [&U] (Rat,Human,(Chicken,(Fly,Seastar)100)100)100;
+End;

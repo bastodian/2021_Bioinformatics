@@ -156,7 +156,8 @@ set increase=auto;
 
 log file=18S_ML.log;
 
-Lset  Base=equal  Nst=6  Rmat=(1.000000000 4531.911621094 1.273843169 1.770655394 0.604134738)  Rates=gamma  Shape=1.4547  Pinvar=0;
+Lset  Base=equal  Nst=6  Rmat=(1.273879528 1.770807981 0.604294300 1.455404401 3.204464436)  Rates=gamma
+  Shape=0.4512  Pinvar=0;
 
 hsearch addseq=random nreps=5 swap=tbr;
 savetrees file=18S.tree.nex format=altnex brlens=yes maxdecimals=6;

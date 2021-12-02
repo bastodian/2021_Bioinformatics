@@ -1,0 +1,1065 @@
+
+P A U P *
+Version 4.0a (build 168) for Unix/Linux (built on Aug  2 2020 at 07:23:11)
+Fri Nov 12 15:13:47 2021
+
+
+Neighbor-joining search settings:
+  Ties (if encountered) will be broken randomly; initial seed = generated automatically
+  Distance measure = Jukes-Cantor
+  1523 characters are included
+  All characters have equal weight
+  (Tree is unrooted)
+
+Tree found by neighbor-joining method stored in tree buffer
+Time used for tree calculation = 0.00 sec (CPU time = 0.00 sec)
+
+***** BEGIN TESTING 24 MODELS OF EVOLUTION *****
+
+    ** Model 1 of 24 * Calculating JC **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 1
+                     State frequencies = equal
+        Proportion of invariable sites = none
+               Rates at variable sites = equal
+                  Model correspondence = JC69
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4600.780
+
+Time used to compute likelihoods = 0.00 sec (CPU time = 0.00 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 2 of 24 * Calculating JC+I **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 1
+                     State frequencies = equal
+        Proportion of invariable sites = estimated
+               Rates at variable sites = equal
+                  Model correspondence = JC69+I
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4567.942
+P_inv     0.501379
+
+Time used to compute likelihoods = 0.01 sec (CPU time = 0.00 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 3 of 24 * Calculating JC+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 1
+                     State frequencies = equal
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = JC69+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4567.934
+Shape     0.466311
+
+Time used to compute likelihoods = 0.01 sec (CPU time = 0.01 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 4 of 24 * Calculating JC+I+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 1
+                     State frequencies = equal
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = JC69+I+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4567.879
+Shape     3.202367
+P_inv     0.433776
+
+Time used to compute likelihoods = 0.05 sec (CPU time = 0.05 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 5 of 24 * Calculating F81 **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 1
+                     State frequencies = estimated
+        Proportion of invariable sites = none
+               Rates at variable sites = equal
+                  Model correspondence = F81
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4599.237
+Base frequencies:
+  A       0.248044
+  C       0.240906
+  G       0.266065
+  T       0.244985
+
+Time used to compute likelihoods = 0.00 sec (CPU time = 0.01 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 6 of 24 * Calculating F81+I **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 1
+                     State frequencies = estimated
+        Proportion of invariable sites = estimated
+               Rates at variable sites = equal
+                  Model correspondence = F81+I
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4566.741
+Base frequencies:
+  A       0.246676
+  C       0.242857
+  G       0.264448
+  T       0.246019
+P_inv     0.499869
+
+Time used to compute likelihoods = 0.02 sec (CPU time = 0.01 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 7 of 24 * Calculating F81+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 1
+                     State frequencies = estimated
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = F81+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4566.742
+Base frequencies:
+  A       0.246479
+  C       0.242916
+  G       0.264412
+  T       0.246193
+Shape     0.470166
+
+Time used to compute likelihoods = 0.03 sec (CPU time = 0.03 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 8 of 24 * Calculating F81+I+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 1
+                     State frequencies = estimated
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = F81+I+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4566.684
+Base frequencies:
+  A       0.246561
+  C       0.242911
+  G       0.264413
+  T       0.246115
+Shape     3.418934
+P_inv     0.436166
+
+Time used to compute likelihoods = 0.09 sec (CPU time = 0.10 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 9 of 24 * Calculating K80 **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2
+                           Ti/tv ratio = estimated
+                     State frequencies = equal
+        Proportion of invariable sites = none
+               Rates at variable sites = equal
+                  Model correspondence = K80
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree                   1
+------------------------
+-ln L           4577.437
+Ti/tv:
+  exp. ratio    0.956557
+  kappa         1.913113
+
+Time used to compute likelihoods = 0.00 sec (CPU time = 0.00 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 10 of 24 * Calculating K80+I **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2
+                           Ti/tv ratio = estimated
+                     State frequencies = equal
+        Proportion of invariable sites = estimated
+               Rates at variable sites = equal
+                  Model correspondence = K80+I
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree                   1
+------------------------
+-ln L           4543.424
+Ti/tv:
+  exp. ratio    1.084052
+  kappa         2.168104
+P_inv           0.504213
+
+Time used to compute likelihoods = 0.01 sec (CPU time = 0.01 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 11 of 24 * Calculating K80+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2
+                           Ti/tv ratio = estimated
+                     State frequencies = equal
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = K80+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree                   1
+------------------------
+-ln L           4543.314
+Ti/tv:
+  exp. ratio    1.094746
+  kappa         2.189493
+Shape           0.456057
+
+Time used to compute likelihoods = 0.01 sec (CPU time = 0.02 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 12 of 24 * Calculating K80+I+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2
+                           Ti/tv ratio = estimated
+                     State frequencies = equal
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = K80+I+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree                   1
+------------------------
+-ln L           4543.257
+Ti/tv:
+  exp. ratio    1.094101
+  kappa         2.188201
+Shape           1.664557
+P_inv           0.372344
+
+Time used to compute likelihoods = 0.05 sec (CPU time = 0.05 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 13 of 24 * Calculating HKY **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2 (HKY85 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = estimated
+        Proportion of invariable sites = none
+               Rates at variable sites = equal
+                  Model correspondence = HKY85
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree                   1
+------------------------
+-ln L           4576.115
+Base frequencies:
+  A             0.246481
+  C             0.241928
+  G             0.265071
+  T             0.246520
+Ti/tv:
+  exp. ratio    0.954447
+  kappa         1.908255
+
+Time used to compute likelihoods = 0.02 sec (CPU time = 0.01 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 14 of 24 * Calculating HKY+I **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2 (HKY85 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = estimated
+        Proportion of invariable sites = estimated
+               Rates at variable sites = equal
+                  Model correspondence = HKY85+I
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree                   1
+------------------------
+-ln L           4542.207
+Base frequencies:
+  A             0.245814
+  C             0.243489
+  G             0.264729
+  T             0.245967
+Ti/tv:
+  exp. ratio    1.085112
+  kappa         2.169874
+P_inv           0.503704
+
+Time used to compute likelihoods = 0.01 sec (CPU time = 0.01 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 15 of 24 * Calculating HKY+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2 (HKY85 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = estimated
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = HKY85+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree                   1
+------------------------
+-ln L           4542.117
+Base frequencies:
+  A             0.245514
+  C             0.243709
+  G             0.264611
+  T             0.246165
+Ti/tv:
+  exp. ratio    1.095435
+  kappa         2.190698
+Shape           0.457584
+
+Time used to compute likelihoods = 0.02 sec (CPU time = 0.02 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 16 of 24 * Calculating HKY+I+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 2 (HKY85 variant)
+                           Ti/tv ratio = estimated
+                     State frequencies = estimated
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = HKY85+I+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree                   1
+------------------------
+-ln L           4542.058
+Base frequencies:
+  A             0.245583
+  C             0.243696
+  G             0.264580
+  T             0.246141
+Ti/tv:
+  exp. ratio    1.094083
+  kappa         2.187963
+Shape           1.583497
+P_inv           0.363674
+
+Time used to compute likelihoods = 0.09 sec (CPU time = 0.08 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 17 of 24 * Calculating SYM **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = equal
+        Proportion of invariable sites = none
+               Rates at variable sites = equal
+                  Model correspondence = SYM
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4566.126
+Exchangeabilities (R):
+  AC       1.18153
+  AG       1.55579
+  AT       0.69477
+  CG       1.24772
+  CT       2.49529
+  GT       1.00000
+
+Time used to compute likelihoods = 0.00 sec (CPU time = 0.01 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 18 of 24 * Calculating SYM+I **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = equal
+        Proportion of invariable sites = estimated
+               Rates at variable sites = equal
+                  Model correspondence = SYM+I
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4532.127
+Exchangeabilities (R):
+  AC       1.24036
+  AG       1.74562
+  AT       0.61171
+  CG       1.42919
+  CT       3.11320
+  GT       1.00000
+P_inv     0.500890
+
+Time used to compute likelihoods = 0.02 sec (CPU time = 0.01 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 19 of 24 * Calculating SYM+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = equal
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = SYM+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4531.912
+Exchangeabilities (R):
+  AC       1.27388
+  AG       1.77081
+  AT       0.60429
+  CG       1.45540
+  CT       3.20446
+  GT       1.00000
+Shape     0.451232
+
+Time used to compute likelihoods = 0.02 sec (CPU time = 0.03 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 20 of 24 * Calculating SYM+I+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = equal
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = SYM+I+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4531.847
+Exchangeabilities (R):
+  AC       1.26957
+  AG       1.76569
+  AT       0.60495
+  CG       1.45153
+  CT       3.19284
+  GT       1.00000
+Shape     1.726510
+P_inv     0.377809
+
+Time used to compute likelihoods = 0.13 sec (CPU time = 0.12 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 21 of 24 * Calculating GTR **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = estimated
+        Proportion of invariable sites = none
+               Rates at variable sites = equal
+                  Model correspondence = GTR
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4562.243
+Base frequencies:
+  A       0.257256
+  C       0.228238
+  G       0.270948
+  T       0.243558
+Exchangeabilities (R):
+  AC       1.25853
+  AG       1.51520
+  AT       0.71429
+  CG       1.29663
+  CT       2.72909
+  GT       1.00000
+
+Time used to compute likelihoods = 0.02 sec (CPU time = 0.02 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 22 of 24 * Calculating GTR+I **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = estimated
+        Proportion of invariable sites = estimated
+               Rates at variable sites = equal
+                  Model correspondence = GTR+I
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4528.898
+Base frequencies:
+  A       0.257479
+  C       0.230095
+  G       0.268784
+  T       0.243642
+Exchangeabilities (R):
+  AC       1.34073
+  AG       1.68897
+  AT       0.63331
+  CG       1.49195
+  CT       3.45651
+  GT       1.00000
+P_inv     0.494488
+
+Time used to compute likelihoods = 0.02 sec (CPU time = 0.02 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 23 of 24 * Calculating GTR+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = estimated
+        Proportion of invariable sites = none
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = GTR+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4528.588
+Base frequencies:
+  A       0.257076
+  C       0.229588
+  G       0.269163
+  T       0.244173
+Exchangeabilities (R):
+  AC       1.39852
+  AG       1.72317
+  AT       0.62721
+  CG       1.53863
+  CT       3.59479
+  GT       1.00000
+Shape     0.460955
+
+Time used to compute likelihoods = 0.04 sec (CPU time = 0.04 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
+
+    ** Model 24 of 24 * Calculating GTR+I+G **
+
+Likelihood scores of tree(s) in memory:
+---------------------------------------
+  1523 characters are included
+  All characters have equal weight
+  Likelihood settings:
+    Current model:
+                             Data type = nucleotide
+                DNA substitution types = 6
+                     Exchangeabilities = estimated
+           GTR submodel classification = unrestricted
+                     State frequencies = estimated
+        Proportion of invariable sites = estimated
+               Rates at variable sites = gamma, shape=estimated (4 categories [mean])
+                  Model correspondence = GTR+I+G
+
+    Number of distinct data patterns under this model = 119
+    Molecular clock not enforced
+    Starting branch lengths obtained using Rogers-Swofford approximation method
+    Branch-length optimization = one-dimensional Newton-Raphson with pass limit=20, tolerance=1e-07
+    Multidimensional optimizer = Praxis (tol=0.0001)
+    Likelihood calculations performed in single precision
+    Vector processing enabled
+    Using standard Felsenstein pruning for computing likelihoods
+    Conditional-likelihood rescaling threshold = 1e-20
+    Using 1 thread on 4 physical (8 logical) processors
+
+Tree             1
+------------------
+-ln L     4528.539
+Base frequencies:
+  A       0.257233
+  C       0.229690
+  G       0.269043
+  T       0.244034
+Exchangeabilities (R):
+  AC       1.38742
+  AG       1.71663
+  AT       0.62657
+  CG       1.53289
+  CT       3.58017
+  GT       1.00000
+Shape     1.596420
+P_inv     0.360671
+
+Time used to compute likelihoods = 0.11 sec (CPU time = 0.11 sec)
+
+Tree scores (and parameter estimates) written to file:
+/mnt/1TB/Dropbox/UOG_MarineLab/Teaching/2021_Bioinformatics/Lab/REPO/2021_Bioinformatics/Lab_08/ModelTest/mrmode
+l.scores
